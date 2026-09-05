@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+src/mcsolver/__init__.py
+src/mcsolver.egg-info/PKG-INFO
+src/mcsolver.egg-info/SOURCES.txt
+src/mcsolver.egg-info/dependency_links.txt
+src/mcsolver.egg-info/top_level.txt
+src/mcsolver/frontend/assembler.py
+src/mcsolver/frontend/bindings.py
+src/mcsolver/frontend/boundary.py
+src/mcsolver/frontend/boundary_condition.py
+src/mcsolver/frontend/boundary_segment.py
+src/mcsolver/frontend/bounding_box.py
+src/mcsolver/frontend/domain.py
+src/mcsolver/frontend/equation.py
+src/mcsolver/frontend/shape.py
+src/mcsolver/frontend/solver.py

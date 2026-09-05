@@ -3,7 +3,7 @@ import numpy as np
 from numpy.typing import NDArray
 import os
 
-_lib_path = os.path.join(os.path.dirname(__file__), "kernel/monte_carlo_solver.dll")
+_lib_path = os.path.join(os.path.dirname(__file__), "../kernel/monte_carlo_solver.dll")
 _lib = ctypes.CDLL(_lib_path)
 
 def solve(
