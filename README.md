@@ -7,13 +7,7 @@ A Monte Carlo solver for partial differential equations (PDEs) on arbitrary 2D d
 This solver uses a probabilistic approach to solve elliptic PDEs of the form:
 
 $$
-a_{xx} u_{xx}
-+ 2a_{xy} u_{xy}
-+ a_{yy} u_{yy}
-+ b_x u_x
-+ b_y u_y
-+ cu
-= f
+a_{xx} u_{xx} + 2a_{xy} u_{xy} + a_{yy} u_{yy} + b_x u_x + b_y u_y + cu = f
 $$
 
 on arbitrary 2D domains with Dirichlet, Neumann, or mixed boundary conditions.
